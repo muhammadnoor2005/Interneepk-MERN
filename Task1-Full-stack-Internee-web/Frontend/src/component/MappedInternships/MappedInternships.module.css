@@ -1,0 +1,85 @@
+.mainDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: max(1.5vw,2vh);
+}
+
+/* a single card of internship */
+.singleCard{
+    border:1px solid #e9eaeb;
+    overflow: hidden;
+    border-radius: 10px;
+    width: max(27vw,5vh);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+
+    margin-inline: auto;
+}
+/* apply shadow on hover */
+.singleCard:hover{
+    box-shadow: 0 1rem 6rem rgba(0,0,0,.175);
+}
+/* intership img */
+.imgDiv{
+    overflow: hidden;
+    object-fit: cover;
+}
+.imgDiv img{
+    height: max(17vw,5vh);
+    width: 100%;
+}
+
+/* internship name */
+.singleCard h4{
+    font-size: max(1.8rem,2vw);
+    margin: 0;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+.singleCard h4:hover{
+    color: var(--purple-color);
+}
+
+/* contains name, loaction, duration and apply now btn */
+.detailsDiv{
+    height: max(12vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: max(2vw,2vh);
+}
+
+/* loaction and duration div */
+.locAndDura{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    color: var(--grey-color);
+    max-width: 60%;
+}
+/* location adn duration icons */
+.locAndDura i{
+    margin-right: max(0.6vw,1vh);
+    color: var(--green-color);
+}
+
+/* "Remote" and "Duration" span */
+.locAndDura span{
+    font-size: max(1.1rem,1vw);
+}
+
+/* div containing apply now btn */
+.btnDiv{
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #e9eaeb;
+}
+/* apply now btn */
+.btnDiv div{
+    margin-top: max(1vw,1vh) ;
+    font-size: max(1rem,1vh);
+    padding: max(1.3vw,2vh);
+    background-color: var(--purple-color);
+    color: white;
+    border-radius: 100px;
+}

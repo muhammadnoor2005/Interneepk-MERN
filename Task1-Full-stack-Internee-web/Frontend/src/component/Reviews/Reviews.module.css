@@ -1,0 +1,101 @@
+.mainDiv{
+    background-color: var(--light-blue);
+    padding: max(6vw,2vh) max(6vw,2vh);
+}
+
+/* Happy Internee Reviews heading */
+.happyInterneeHeading{
+    text-align: center;
+    font-size: max(3rem,2vw);
+    font-weight: 600;
+}
+
+/* single review card */
+.singleReviewCard{
+    margin-inline: auto;
+    width: max(35vw,2vh);
+    position: relative;
+    background-color: white;
+    padding: max(3vw,3vh);
+    border-radius: 30px;
+}
+
+/* 5 review stars */
+.reviewStars{
+    color: var(--purple-color);
+}
+
+/* div containing all reviews mapped */
+.reviewMapped{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: max(2vw,3vh);
+}
+
+/* reviewer img div */
+.imgDiv{
+    overflow: hidden;
+    border-radius: 10px ;
+}
+
+/* reviewer img */
+.imgDiv img{
+    border-radius: 50%;
+    max-width: max(4vw,4vh);
+    border: 5px solid var(--light-blue);
+}
+
+/* reviewer bio and ratings div */
+.reviewerBioAndRatings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* reviewer bio name image and feild only */
+.reviewerBio{
+    display: flex;
+    
+}
+
+/* only name and field div */
+.nameAndFieldDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: max(1vw,2vh);
+}
+
+/* field of reviewer */
+.nameAndFieldDiv small{
+    font-weight: 300;
+    font-size: max(1rem,1vw);
+    color: var(--grey-color);
+}
+/* name of reviewr */
+.nameAndFieldDiv strong{
+    font-size: max(1.2rem,1vw);
+}
+
+/* reviewd text div */
+.reviewTxt{
+    margin-top: max(2vw,3vh);
+    margin-inline: max(2vw,3vh);
+    color: var(--grey-color);
+    font-size: max(1.8rem,1vw);
+    
+    line-height: max(1.7rem,1vw);
+}
+/* reviewed text */
+.reviewTxt h5{
+    margin: 0;
+    font-weight: 600;
+}
+
+/* left quote img */
+.leftQuote{
+    height: max(4vw,5vh);
+    opacity: 0.1;
+    top: max(8vw,3vh);
+    position: absolute;
+}

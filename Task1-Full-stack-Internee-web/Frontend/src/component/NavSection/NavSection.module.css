@@ -1,0 +1,51 @@
+.mainDiv{
+    overflow: hidden;
+    background-color: var(--green-back-drop);
+    position: relative;
+    max-height: max(30vw,10vh);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* img  */
+.imgDiv img{
+    opacity: 0.15;
+    width: 100%;
+}
+/* contain h1 name of page on whihc we are and path */
+.navMenu{
+    color:var(--grey-color);
+    position: absolute;
+}
+/* Menu name */
+.navMenu h1{
+    font-size: max(3rem,2vw);
+    color: white;
+    margin-bottom: max(1vw,1vh);
+}
+
+/* menu path for exmaple "Home / internships" */
+.navMenuPosition{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.navMenuPosition div{
+    background-color: white;
+    max-width: fit-content;
+    padding: max(1vw,1vh);
+    border-radius: 30px;
+    
+}
+/* "Home" txt */
+.home{
+    color: var(--green-color);
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+.home:hover{
+    color: var(--purple-color);
+}

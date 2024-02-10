@@ -1,0 +1,11 @@
+.mainDiv{
+    margin: max(6vw,3vh) max(5vw,3vh);
+}
+
+.headingDiv{
+    font-size: max(1.8rem,1vw);
+    
+}
+.headingDiv h3{
+    font-weight: 600;
+}

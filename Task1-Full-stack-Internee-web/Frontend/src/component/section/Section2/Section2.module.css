@@ -1,0 +1,117 @@
+/* parent div of section 2 */
+.section2MainDiv{
+    display: flex;
+    /* overflow: hidden; */
+    margin: max(5vw,3vh) max(6vw,4vh);
+    color:white;
+}
+
+/* hammad image with name div */
+.founderImg{
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+/*  images of founder and CMO */
+.founderImg img,.CMOImg  img{
+    max-width: max(20vw,1vh);
+    object-fit: cover;
+    height: 100%;
+}
+
+/* CMO img div with name div */
+.CMOImg{
+    overflow: hidden;
+    position: relative;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/* outer name div to center the name div of both founder and CMO  */
+.nameDivOuterDiv{
+    position: absolute;
+    bottom: max(2vw,2vh);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/* "Hammad" and "Rayyan" txt */
+.CMOImg h4, .founderImg h4{
+    font-weight: 600;
+    font-size: max(2rem,1vw);
+    margin-block: 1vw;
+}
+
+/* div containing name and CMO and Founder text */
+.nameDiv{
+    background-color: var(--green-color);
+    border-radius: 30px;
+    padding-bottom: max(1vw,1vh);
+    padding: max(1vw,1vh);
+    font-weight: 300;
+    max-width: 80%;
+}
+
+/* both CMO and Founder txt */
+.nameDiv p{
+    font-size: max(1.2rem);
+}
+
+
+
+
+/* main text block div */
+.textBlock{
+    padding: max(4.5vw,3vh) max(5vw,2vh);
+    
+    background-color: var(--purple-color);
+    width: max(33vw,6vh);
+    margin-inline:max(2vw,2vh);
+}
+/* Welcome to Internee.pk heading */
+.textBlock h2{
+    font-weight: 600;
+    font-size: max(3rem,2vw);
+    /* line-height: max(2.5rem,0.5vw); */
+}
+
+/* Our internship program ... and so on text para */
+.textBlock p{
+    font-weight: 300;
+    line-height: min(1.6rem,2.2vw);
+    font-size: max(1.2rem,2vh);
+}
+
+/* "Applt Today link span" */
+.textBlockText span{
+    color: #30E792;
+    cursor: pointer;
+}
+
+/* "Get to know us" and "Explore Intership" div */
+.btnsBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 65%;
+}
+
+/* single button */
+.btnsBlock div{
+    cursor: pointer;
+}
+
+/* "Get to know us" btn */
+.knowUsBtn{
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: max(1vw,1vh) max(1vw,1vh);
+    transition: background-color 0.3s ease;
+}
+.knowUsBtn:hover{
+    background-color: white;
+    color:var(--purple-color);
+}

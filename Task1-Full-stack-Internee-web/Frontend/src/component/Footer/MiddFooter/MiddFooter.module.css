@@ -1,0 +1,108 @@
+.mainDiv{
+    padding:max(7vw,2vh) max(5vw,2vh);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.mainDiv span{
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+.mainDiv span:hover{
+    color: var(--purple-color);
+}
+/* Internee logo and contact info div */
+.contactInfoDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--grey-color);
+    min-height: max(15vw,5vh);
+}
+
+/* logo of globe & phone & email */
+.contactInfoDiv i{
+    color: var(--green-color);  
+}
+
+/* internee.pk with logo/ phone numebr with logo/emial with logo divs given same class */
+.contactInfoSingleDiv{
+    max-width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 300;
+    font-size: max(1.2rem,1vw);
+    /* margin-left: max(2vw,2vh); */
+}
+/* both company and resources divs given same class */
+.companyAndResourcesDiv{
+    display:  flex;
+    flex-direction: column;
+}
+/* "Company" and "Resources" heading */
+.companyAndResourcesDiv h6{
+    font-weight: 600;
+    margin-top:0 ;
+    margin-bottom: max(1vw,2vh);
+    font-size: max(1.5rem,1vw);
+}
+/* "Home,About,Internships,Contact" and "Discord Server, Blog, Podcast" spans */
+.companyAndResourcesDiv span{
+    color: var(--grey-color);
+    font-weight: 300;
+    font-size: max(1.2rem,1vw);
+    line-height: max(2rem,1vw);
+}
+
+/* right last div Get Updates About Internhips div */
+.getUpdatesDiv{
+    background-color: var(--light-blue);
+    padding: max(3vw,2vh);
+    border-radius: 10px;
+    min-width: max(20vw,5vh);
+
+}
+.getUpdatesDiv input{
+    outline: none;
+    border: none;
+}
+
+/*"Get Updates About Internship" TXT */
+.getUpdatesDiv h6{
+    font-weight: 600;
+    margin-top: 0;
+    font-size: max(1.2rem,1vw);
+}
+
+/* right last div having input */
+.inputFieldAndSendBtn{
+    border-radius: 30px;
+    display: flex;
+    background-color: white;
+    padding: max(1vw,1vh);
+}
+
+/* input field and person logo */
+.inputFieldAndSendBtn div{
+    display: flex;
+    align-items: center;
+}
+
+/* div contaaining send btn with send icon */
+.sendBtnDiv{
+    padding: max(1vw,1vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: var(--green-color);
+    border-radius: 50%;
+    height: max(1vw,1vh);
+    width: max(1vw,1vh);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.sendBtnDiv:hover{
+    background-color: var(--purple-color);
+}

@@ -1,0 +1,41 @@
+.mainDiv{
+    color: white;
+    position:relative;
+    max-width: 100%;
+    background-color: var(--green-back-drop);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.mainDiv h2{
+    font-weight: 600;
+    
+}
+
+.imgDiv{
+    position: absolute;
+    object-fit: cover;
+    opacity: 0.15;
+}
+.imgDiv img{
+    width: 100%;
+}
+
+/* internship evermonth heading and introducing inetrnee.. txt */
+.txtDiv{
+    padding-top: min(12vw,30vh);
+    padding-left: min(6vw,40vh);
+    padding-right: max(50vw,20vh);
+    padding-bottom: min(6vw,12vh);
+}
+
+.txtDiv h2{
+    font-weight: 600;
+    font-size: min(3rem,5vw);
+    margin: 0;
+}
+.txtDiv p{
+    font-weight: 300;
+    font-size: min(1.3rem,1.6vw);
+    line-height: max(1.7rem,1vw);
+}

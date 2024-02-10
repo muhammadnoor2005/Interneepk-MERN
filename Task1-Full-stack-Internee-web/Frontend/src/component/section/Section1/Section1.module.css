@@ -1,0 +1,66 @@
+
+/* parent div  */
+.section1MainDiv{
+    position: relative;
+    overflow: hidden;
+    background-color: var(--green-back-drop);
+    max-height: 105vh;
+    min-width: 100%;
+
+}
+
+/* bg img of peoples  */
+.section1MainDiv img{
+    width: 100%;
+    opacity: 0.15;
+}
+
+/* contians all the text */
+.section1TxtDiv{
+    color: white;
+    position: absolute;
+    top: max(12vw,1vh);
+    left: max(6vw,1vh);
+    max-width:50% ;
+}
+
+/* Are you looking for your dream Intership text */
+.section1TxtDiv h6{
+    font-size: max(1.4rem,1vw);
+    font-weight: 600;
+}
+
+/* Join Internee.pk now..! text*/
+.section1TxtDiv h1{
+    font-size: max(3.5rem,1vw);
+    font-weight: 700;
+}
+
+/* "Pakistan's Virtual Intership Platform Powered By" text */
+.section1TxtDiv p{
+    font-weight: 300;
+    font-size: max(1.4rem,1vw);
+}
+
+/* "TechVioChats" span inside p */
+.section1TxtDiv p span{
+    font-weight: 700;
+    cursor: pointer;
+    color: #D0E4FF;
+}
+
+/* Button "Browse Interships" */
+.browseIntershipBtnDiv{
+    text-align: center;
+    max-width: 25%;
+    border:2px solid white;
+    border-radius: 100px;
+    padding: max(1vw,1vh) max(1vw,1vh);
+    transition: background-color 0.3s ease;
+}
+
+/* color change on hover */
+.browseIntershipBtnDiv:hover{
+    cursor: pointer;
+    background-color: var(--purple-color);
+}

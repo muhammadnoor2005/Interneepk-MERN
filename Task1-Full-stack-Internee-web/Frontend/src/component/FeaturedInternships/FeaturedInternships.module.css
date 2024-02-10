@@ -1,0 +1,155 @@
+.mainDiv{
+    margin: max(5vw,3vh) max(6vw,4vh);
+}
+
+/* Featured Internships heading and Grab yourInternshipson your favourite domain now..! text div */
+.headingDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Featured Internships heading */
+.headingDiv h2{
+    font-size: max(3rem,1vw);
+    font-weight: 600;
+    margin-bottom: max(1vw,1vh);
+}
+
+/* Grab yourInternshipson your favourite domain now..! p */
+.headingDiv p{
+    font-size: max(1.2rem,1vw);
+    font-weight: 300;
+    color: var(--grey-color);
+}
+
+/* single card */
+.imgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+    max-width: max(3vw,3vh);
+    height:max(3vw,3vh);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    border-radius: 50%;
+    padding: max(1.8vw,1vh);
+
+}
+.imgDiv img{
+    width: 100%;
+    height: auto;
+}
+
+/* single card with and wout bg */
+.domainCardWBG, .domainCardWoutBG{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: max(1.5vw,2vh);
+    border-radius: 10px;
+    margin-bottom: max(2vw,2vh);
+    transition: box-shadow 0.3s ease;
+}
+
+/* with box shadow card */
+.domainCardWBG{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    
+}
+/* apply shadow on hover */
+.domainCardWoutBG:hover{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);    
+}
+
+/* contain img, domain name, and more thing except btn */
+.flexDiv{
+    display: flex;
+}
+
+/* "Apply now" btn */
+.applyNowBtn{
+    /* position: absolute;
+    right: 0; */
+    cursor: pointer;
+    background-color: var(--purple-color);
+    color: white;
+    border-radius: 100px;
+    padding: max(1.2vw,2vh) max(1.5vw,2vh);
+}
+
+/* loaction, durtaion and name of domain div */
+.nameLocDuraDiv{
+    margin-left: max(2vw,2vh);
+}
+
+/* domain name */
+.nameLocDuraDiv h4{
+    margin: 0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: max(2rem,2vh);
+    transition: color 0.3s ease;
+}
+.nameLocDuraDiv h4:hover{
+    color: var(--purple-color);
+}
+
+/* location and duration div */
+.locAndDuraDiv{
+    display: flex;
+    justify-content: space-between;
+    width: max(40vw);
+    margin-top: max(1vw,1vh);
+}
+.locAndDuraDiv i{
+    color: var(--green-color);
+}
+/* "Karachi" and "Month" txt */
+.locAndDuraDiv span{
+    font-weight: 300;
+    font-size: max(1.1rem,1vw);
+    margin-left: max(1vw,1vh);
+    color: var(--grey-color);
+}
+
+/* "Internship" and "Remote txt" */
+.typeAndRemoteDiv{
+    display: flex;
+}
+.typeAndRemoteDiv div{
+    margin-left: max(1vw,1vh);
+    font-size: max(0.9rem,0.8vw);
+}
+
+/* "Internship' and "Remote" text */
+.internshipTxtGreenBG, .remoteTxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 100px;
+    padding: max(0.4vw,0.6vh) max(0.7vw,0.6vh);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.internshipTxtGreenBG{  
+    color: white; 
+    background-color: var(--green-color);
+}
+.remoteTxt{
+    color: var(--green-color);
+    background-color: var(--light-blue);
+}
+
+.internshipTxtGreenBG:hover{  
+    color: white; 
+    background-color: var(--purple-color);
+}
+
+.remoteTxt:hover{
+    color: var(--green-color);
+    background-color: var(--purple-color);
+    color: white;
+}

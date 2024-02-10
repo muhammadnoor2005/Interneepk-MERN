@@ -1,0 +1,45 @@
+.mainDiv{
+    margin: max(10vw,2vh) max(6vw,2vh);
+}
+
+/* contain "Other Internships" heading and "Internships every months Introducing Int.." txt */
+.txtDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*  */
+.txtDiv div{
+    max-width: 50%;
+}
+/* "Other Internships" heading */
+.txtDiv h3{
+    margin-bottom: max(1.5vw,1vh);
+    font-weight: 600;
+    font-size: max(2.2rem,1vw);
+}
+/* "Internships every months Introducing Int.." txt */
+.txtDiv p{
+    color: var(--grey-color);
+    font-weight: 300;
+    line-height: max(2rem,1vw);
+    font-size: max(1.3rem,1vw);
+}
+
+
+.browseBtn{
+    cursor: pointer;
+    padding: max(1.2vw,1vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 2px solid #e9eaeb;
+    color: var(--purple-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.browseBtn:hover{
+    background-color: var(--purple-color);
+    color: white;
+}

@@ -1,0 +1,81 @@
+/* main header div with logo, nav bar and  button*/
+.headerMainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: max(3vw,3vh) max(5vw,3vh);   
+    /* letter-spacing: 1px; */
+}
+
+/* logo with text div */
+.interneeLogo{
+    display: flex;
+    cursor: pointer;
+}
+
+/* website main logo */
+.interneeLogo img{
+    height: max(4vw,9vh);
+}
+
+/* contains Internee.pk virtual internship... text */
+.interneeLogo div{
+    font-size: max(2rem,2vw);
+    color: var(--green-color);
+    display: flex;
+    flex-direction: column;
+    font-weight: 1000;
+}
+
+/* contains .pk text */
+.interneeLogo span{
+    color: black
+}
+/* contains "virtual interhsip program" text */
+.interneeLogo small{
+    color: var(--purple-color);   
+    font-size: max(0.5rem,0.8vw);
+    font-weight: 600;
+}
+
+/* nav bar with home about etc */
+.navBar{
+    color: var(--grey-color);
+    display: flex;
+    justify-content: space-between;
+    width:50%;
+    font-size: max(1rem,3vh);
+    font-weight: 300;
+}
+.navBar span{
+    cursor: pointer;
+}
+.navBar span:hover{
+    color: var(--purple-color);
+}
+
+/* Job portal button div */
+.jobPortalButton{
+    cursor: pointer;
+    font-size: max(1rem,1.4vw);
+    border-radius: 100px;
+    background-color: var(--purple-color);
+    color: white;
+    padding: max(1vw,1vh) max(2vw,1vh);
+    max-width: max(6vw,2vh);
+    text-align: center;
+    font-weight: 300;
+}
+
+.menuBtn{
+    display: none;
+}
+
+@media only screen and (max-width:450px){
+    .navBar{
+        display: none;
+    }
+    .menuBtn{
+        display:block ;
+    }
+}

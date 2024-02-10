@@ -1,0 +1,154 @@
+.mainDiv{
+    margin-bottom: max(8vw,3vh);
+}
+
+/* contain MAp and contact address etc */
+.mapAndContactDiv{
+    display: flex;
+    justify-content: space-between;
+    margin:max(8vw,1vh) max(6vw,2vh) ;
+
+}
+/* all icons for exmaple building, email, linkedin and phone */
+.contactDiv i{
+    color: var(--green-color);
+    font-size: max(3rem,1vw);
+}
+
+/* address,,email, phone number span */
+.contactDiv span{
+    color: var(--grey-color);
+    font-weight: 300;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    font-size: max(1.2rem,1vw);
+}
+.contactDiv span:hover{
+    color: var(--purple-color);
+}
+
+/* div of single contact info for eg building icon with its textt and location */
+.singleInfoDiv,.singleInfoDivWBG{
+    display: flex;
+    margin: max(2vw,1vh) max(2vw,2vh);
+    padding: max(2vw,1vh) max(2vw,1vh);
+    align-items: center;
+}
+
+/* Office, Linkedin, Phone and Email txt */
+.singleInfoDiv p,.singleInfoDivWBG p{
+    margin-block: 0;
+    display: inline;
+    color: var(--purple-color);
+    font-weight: 600;
+}
+
+/* contact name and info div for eg LinkedIn and "internee.pk" */
+.singleInfoDiv div,.singleInfoDivWBG div{
+    margin-left: max(1vw,1vh);
+    display: flex;
+    flex-direction: column;
+}
+
+/* with blue bg  */
+.singleInfoDivWBG{
+    background-color: var(--light-blue);
+    border-radius: 100px;
+}
+
+/* div containing the map */
+.mapDiv{
+    background-size: cover;
+    width: 50%;
+    min-height: fit-content;
+    overflow: hidden;
+    border-radius: 30px;
+}
+/* making map B&W */
+.mapDiv iframe{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+/* Porject in mind heading and its input fields */
+.projectInMindDiv{
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+}
+
+/* "Project in mind? Let’s Talk" heading */
+.projectInMindDiv h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: max(3rem,2vh);
+}
+
+/* full naem and email address field div */
+.fullNameAndEmailAddress{
+    display: flex;
+    gap: max(2vw,2vh);
+}
+
+.fullNameAndEmailAddress input{
+    border-radius: 100px;
+    min-width: max(25vw,3vh);
+    padding: max(1.5vw,1vh) max(1.2vw,1vh);
+    background-color: var(--light-blue);
+    border: none;
+    margin-top: max(1vw,1vh);
+    transition: outline-color 0.3s ease,background-color 0.3s ease;
+}
+
+.fullNameAndEmailAddress input:focus{
+    background-color: white;
+    outline-color: var(--green-color);
+}
+/* message write div */
+.messageDiv{
+    margin-top: max(2vw,2vh);
+}
+.messageDiv textarea{
+    margin-top: max(1vw,1vh);
+    min-width: 95%;
+    min-height: max(10vw,4vh);
+    border: none;
+    border-radius: 30px;
+    background-color: var(--light-blue);
+    padding: max(1.5vw,2vh);
+    transition: outline-color 0.3s ease,background-color 0.3s ease;
+    resize: vertical;
+}
+.messageDiv textarea::placeholder{
+    font-family:'League Spartan',sans-serif;
+}
+
+.messageDiv textarea:focus{
+    background-color: white;
+    outline-color: var(--green-color);
+}
+
+/* send message btn */
+.sendMsgBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.sendMsgBtn button{
+    display: flex;
+    justify-content: center;
+    margin-top: max(2vw,1vh);
+    cursor: pointer;
+    font-size: max(1.3em,1vw);
+    background-color: var(--green-color);
+    color: white;
+    padding: max(1.5vw,3vh) max(4vw,2vh);
+    border-radius: 100px;
+    transition:background-color 0.3s ease;
+    border: none;
+}
+
+.sendMsgBtn button:hover{
+    background-color: var(--purple-color);
+}

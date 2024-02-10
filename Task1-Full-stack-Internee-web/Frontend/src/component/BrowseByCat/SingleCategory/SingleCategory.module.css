@@ -1,0 +1,48 @@
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border:8px solid var(--purple-color);
+    border-radius: 50%;
+    height: max(10vw,6vh);
+    width: max(10vw,6vh);
+    color: white;
+    background-color: var(--green-color);
+    cursor: pointer;
+    transition: border-color 0.5s ease, box-shadow 0.5s ease;
+    margin-inline: auto;
+}
+
+.mainDiv:hover{
+    border-color: white;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+/* this much programs count */
+.countDiv{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: var(--purple-color);
+    padding: max(1vw,1vh);
+    border-radius: 50%;
+    height: max(1vw,2vh);
+    width: max(1vw,2vh);
+}
+
+/* cat logo and name div */
+.logoAndCatNameDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: max(1.5vw,1vh);
+    font-size: max(1rem,1vw);
+}
+
+/* cat logo */
+.logoAndCatNameDiv i{
+    font-size: max(1rem,2.2vw);
+}

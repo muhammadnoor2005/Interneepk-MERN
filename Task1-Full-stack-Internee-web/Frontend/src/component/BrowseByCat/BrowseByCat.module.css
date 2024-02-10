@@ -1,0 +1,22 @@
+.mainDiv{
+   margin-inline: max(13vw,5vh);
+   margin-bottom: max(8vw,4vh);
+}
+
+/* browse by cat heading div*/
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: max(2em,1vw);
+}
+
+/*  "Browse by Categories" text*/
+.heading h2{
+    font-weight: 600;
+}
+
+/* categories div */
+.categories{
+    display: flex;
+    justify-content: space-between;
+}

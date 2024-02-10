@@ -1,0 +1,63 @@
+.mainDiv{
+    margin-inline: max(6vw,4vw);
+    border-radius: 30px;
+    display: flex;
+    color: white;
+    margin-bottom: max(8vw,3vh);
+}
+
+
+
+/* image div */
+
+.imgDiv{
+    overflow: hidden;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    object-fit: cover;
+    /* height: 100%; */
+}
+
+.imgDiv img{
+    max-width: 100%;
+    height: 100%;
+}
+
+/* contains all text like "Launching tech..." heading "Internee.pk kickstart ..." etc */
+.allTxtDiv{
+    background-color: var(--green-color);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: max(6vw,4vh) max(4vw,4vh);
+    max-width: 40%;
+    margin-right: max(2vw,4vh);
+    
+}
+
+/* "Launching tech..." heading */
+.headingDiv h2{
+    font-weight: 600;
+    margin: 0;
+    line-height: max(3.2rem,1vw);
+    font-size: max(3rem,3vh);
+}
+
+/* "Internee.pk kickstart ..." para */
+.headingDiv p{
+    font-size: max(1.3rem,1vw);
+    font-weight: 300;
+    line-height: max(1.2rem,2vw);
+}
+
+/* 5000+ 35+ div */
+.numbersDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: max(4vw,1vh);
+}
+
+.registeredUsersDiv div, .openingIntershipsDiv div{
+    font-size: max(3.5rem,2vw);
+}
+

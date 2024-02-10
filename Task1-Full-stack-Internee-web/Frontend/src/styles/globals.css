@@ -1,0 +1,16 @@
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css");
+
+:root{
+  --green-color:#43A724;
+  --purple-color:#8C52FE;
+  --grey-color:#797A7D;
+  --green-back-drop:#376828;
+  --light-blue:#F0F8FF;
+}
+
+body{
+  font-family:'League Spartan',sans-serif;
+  margin: 0;
+  /* letter-spacing: -0.5px; */
+}
