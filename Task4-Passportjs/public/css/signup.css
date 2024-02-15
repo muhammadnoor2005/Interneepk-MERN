@@ -1,0 +1,64 @@
+
+
+.singupFormMainDiv{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+}
+
+/* signup form body */
+.singupFormMainDiv div{
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: max(2vw,2vh);
+    max-width: fit-content;
+}
+
+/* signup form */
+.singupFormMainDiv form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* input fields of form */
+.singupFormMainDiv input{
+    outline-color: crimson;
+    border-radius: 10px;
+    padding: 1vw;
+    background-color: rgb(234, 234, 234);
+    border: none;
+    margin-bottom: 2vw;
+    transition: outline 0.4s ease, background-color 0.4s ease;
+}
+.singupFormMainDiv input:focus{
+    background-color: white;
+}
+
+/* signup/login btn */
+.singupFormMainDiv button{
+    border-radius: 10px;
+    padding: 1vw;
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+    border: none;
+    width: 80%;
+    transition: background-color 0.4s ease;;
+}
+
+.singupFormMainDiv button:hover{
+    background-color: brown;
+}
+
+.singupFormMainDiv p{
+    font-size: 12px;
+}
+.singupFormMainDiv a{
+    text-decoration: none;
+    cursor: pointer;
+    color: crimson;
+}
